@@ -16,3 +16,23 @@ A Flutter-based secure mobile banking app that uses *behavioral biometrics* to a
 - 🌀 Invisible distress gesture (e.g., drawing a circle) to lock account & alert bank
 - 📋 Profile screen shows real-time behavioral metadata
 - ⚡ Firebase Firestore integration for secure cloud storage
+
+## 🚀 Setup Instructions
+
+1. Clone the Repo
+git clone https://github.com/codesoumya7/Canara_Bank_Hackathon.git
+
+2. Install Flutter Packages in the downloaded folder
+flutter pub get
+
+3. Setup Firebase
+Create a Firebase project at https://console.firebase.google.com.
+Add your Android app to Firebase: Use your app’s package name (e.g., com.example.behaviour_auth_app)
+
+4. Download google-services.json and place it inside: 
+android/app/google-services.json
+
+5. Enable Firestore and Authentication in Firebase console.
+6. Make sure your android/build.gradle and android/app/build.gradle files are updated for Firebase integration.
+7. Run the App: flutter run
+  Make sure your emulator or physical device has location & internet permissions enabled.
